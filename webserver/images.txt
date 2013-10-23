@@ -1,0 +1,5 @@
+You will find the images used here :
+
+Background : http://gcool.info/smartboiler/img/bcg.jpg
+Logo (on) : http://gcool.info/smartboiler/img/logo-off.jpg
+Logo (off) : http://gcool.info/smartboiler/img/logo-on.jpg
