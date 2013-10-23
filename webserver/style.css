@@ -1,0 +1,62 @@
+/* Import the google fonts */
+@import url(http://fonts.googleapis.com/css?family=Raleway:800);
+
+/* Set the background image */
+body {
+	background-image: url(img/bcg.jpg);
+	font-size: 100%;
+}
+
+/* Set the logo image */
+#logo {
+	height: 461px;
+	width:322px;
+	position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+/* The logo when the heater is on (it's white) */
+.on {
+	background-image: url(img/logo-on.jpg);
+	background-repeat: no-repeat;
+	height: 461px;
+	width:322px;
+}
+
+/* Change the opacity of the logo on a hover event */
+.on:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+/* Change the opacity of the logo on a hover event */
+.off:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+/* The logo when the heater is off (it's red) */
+.off {
+	background-image: url(img/logo-off.jpg);
+	background-repeat: no-repeat;
+	height: 461px;
+	width:322px;
+}
+
+/* The text under the logo */
+#logo-txt {	
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	font-weight: 800;
+	font-size: 200%;
+	text-align: center;
+	margin-top: 5%;
+}
+
+
+
+
